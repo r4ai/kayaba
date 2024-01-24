@@ -5,10 +5,7 @@ import {
   InteractionType,
 } from "discord-api-types/v10";
 import type { commands } from "./command";
-import type {
-  APIApplicationCommandInteraction,
-  APIInteraction,
-} from "discord-api-types/v10";
+import type { APIInteraction } from "discord-api-types/v10";
 import { vertifyKeyMiddleware } from "./middleware";
 import dedent from "dedent";
 

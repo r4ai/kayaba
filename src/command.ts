@@ -25,8 +25,4 @@ export const commands = {
       },
     ],
   },
-  ping: {
-    name: "ping",
-    description: "Ping the bot",
-  },
 } as const satisfies Commands;
