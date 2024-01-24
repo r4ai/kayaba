@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts",
+    "register": "bun run ./scripts/register.ts"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.0.47",
+    "dedent": "^1.5.1",
+    "discord-interactions": "^3.4.0",
+    "hono": "^3.12.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@types/bun": "^1.0.3",
+    "discord-api-types": "^0.37.67",
+    "wrangler": "^3.22.0"
+  }
+}
